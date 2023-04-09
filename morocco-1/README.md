@@ -48,7 +48,7 @@ version: 1.0.0
 
 ## Setup
 
-**Prerequisites:** Make sure to have [Golang >=1.17](https://golang.org/).
+**Prerequisites:** Make sure to have [Golang >=1.20.3](https://golang.org/).
 
 #### Build from source
 
