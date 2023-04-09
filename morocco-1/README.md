@@ -72,7 +72,7 @@ This will build and install `terp` binary into `$GOBIN`.
 
 ### Minimum hardware requirements
 
-- 32-64GB RAM
+- 16-64GB RAM
 - 500GB of disk space
 - 1.4 GHz amd64 CPU
 
