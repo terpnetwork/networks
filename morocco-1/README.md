@@ -17,7 +17,7 @@ _Planned Start Time: April10th  at 12:00 UTC._
 [Genesis File](/morocco-1/genesis.json):
 
 ```bash
-   curl -s  https://raw.githubusercontent.com/terpnetwork/mainnet/main/morocco-1/genesis.json >~/.terp/config/genesis.json
+   curl -s  https://raw.githubusercontent.com/terpnetwork/mainnet/main/morocco-1/genesis.json > ~/.terp/config/genesis.json
 ```
 
 **Genesis sha256**
