@@ -24,6 +24,7 @@ _Planned Start Time: April10th  at 12:00 UTC._
 
 ```bash
 sha256sum ~/.terp/config/genesis.json
+TBD
 
 ```
 
@@ -43,7 +44,7 @@ version: 1.0.0
 [Full seed nodes list](/morocco-1/seeds.txt).
 
 ```
-2484353dab0b2c1275765b8ffa2c50b3b36158ca@seed.terp.network:26656
+894e935070030119c5c5a7533f2438957b762da1@seed.terp.network:26656
 ```
 
 ## Setup
