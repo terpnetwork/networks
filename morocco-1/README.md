@@ -24,8 +24,7 @@ _Planned Start Time: April10th  at 12:00 UTC._
 
 ```bash
 sha256sum ~/.terp/config/genesis.json
-TBD
-
+ab6c68c50d45cb9a145edf6b37c05cb9eefc2a0488d08498b8f827c2471ba843 genesis.json
 ```
 
 **terpd version**
