@@ -43,7 +43,7 @@ version: 1.0.0
 [Full seed nodes list](/morocco-1/seeds.txt).
 
 ```
-894e935070030119c5c5a7533f2438957b762da1@seed.terp.network:26656
+c71e63b5da517984d55d36d00dc0dc2413d0ce03@seed.terp.network:26656
 ```
 
 ## Setup
