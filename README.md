@@ -1,1 +1,1 @@
-# Terp Network Main-Net Resources
+# Public Networks - Terp Network

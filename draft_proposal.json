@@ -1,0 +1,20 @@
+{
+    "messages": [
+     {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "terp10d07y265gmmuvt4z0w9aw880jnsr700jag6fuq",
+      "plan": {
+       "name": "v2",
+       "time": "0001-01-01T00:00:00Z",
+       "height": "2847602",
+       "info": "https://raw.githubusercontent.com/terpnetwork/mainnet/main/morocco-1/upgrades/v2/cosmovisor.json",
+       "upgraded_client_state": null
+      }
+     }
+    ],
+    "metadata": "ipfs://bafkreiernqcoj5niaalkc77h4tkyfmxsousal352y5u4fzjvoabmbtv5dy",
+    "deposit": "100000000uterp",
+    "title": "v2",
+    "summary": "An upgrade proposal of the Terp-Core software to version 2.0.0"
+   }
+   
