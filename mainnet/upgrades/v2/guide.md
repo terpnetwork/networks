@@ -4,13 +4,12 @@
 |-----------------|--------------------------------------------------------------|
 | Chain-id        | `morocco-1`                                                |
 | Upgrade Version | `v2.0.0`                                        |
-| Upgrade Height  | `2763907`                                              |
-| Countdown       | [Countdown](https://ping.pub/terp/block/2763907)                                             |
-| Go Playground  | [Go Playground](https://go.dev/play/p/eGgZugedEoA)                                             |
+| Upgrade Height  | `2847602`                                              |
+| Countdown       | [Countdown](https://ping.pub/terp/block/2847602)                                             |
 
 
 
-The target block for this upgrade is `2763907`, which is expected to arrive at Thursday, October 5th.. 
+The target block for this upgrade is `2763907`, which is expected to arrive at Wednesday, October 11th.. 
 
 ### Building Manually:
 ```
