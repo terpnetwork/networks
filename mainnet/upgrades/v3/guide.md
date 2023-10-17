@@ -26,7 +26,8 @@ $DAEMON_HOME/cosmovisor/upgrades/v3/bin/terpd version
 ```
 ### Downloading Verified Build:
 ```
-wget https://github.com/terpnetwork/terp-core/releases/download/v3-pigeonfall/terpd-v3.0.0-pigeonfall-amd64
-sha256sum terpd_linux_amd64
-# Output 
+wget https://github.com/terpnetwork/terp-core/releases/download/v3-pigeonfall/terpd-v3-pigeonfall-amd64
+
+sha256sum terpd-v3-pigeonfall-amd64
+# Output  241b9fd31e01c263abd685dcb8e8564cf26c1bcb88b7dbd8fed90c1782f83aab 
 ```
