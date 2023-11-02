@@ -1,4 +1,4 @@
-# Terp-Core v3 - Headstash Upgrade
+# Terp-Core v3 - Ocimene Upgrade
 
 |                 |                                                              |
 |-----------------|--------------------------------------------------------------|
@@ -17,9 +17,9 @@ cd terp-core && git pull && git checkout v4.0.0
 make build && make install 
 
 terpd version --long | grep "cosmos_sdk_veresion/|commit\|version:"
-# commit: 
-# cosmos_sdk_version: 
-# version:
+# commit: 0a94d73f33bd759e701675c51d3b97ffc2f008b3
+# cosmos_sdk_version: v0.47.5
+# version: 4.0.0
 
 mkdir -P $DAEMON_HOME/cosmovisor/upgrades/v4/bin && cp $HOME/go/bin/terpd $DAEMON_HOME/cosmovisor/upgrades/v4/bin 
 

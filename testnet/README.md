@@ -13,7 +13,8 @@
 | [athena-3](./athena-3) | *testnet* | Ended   | `v0.3.0`     | Past testnet  |
 | [athena-4](./athena-4) | *testnet* | Ended  | `v0.4.0`     | Past testnet  |
 | [90u-1](./90u-1)       | *testnet* | Ended  | `v1.0.1`     | Past testnet  |
-| [90u-2](./90u-2)       | *testnet* | Current | `v2.0.0`     | Current testnet  |
+| [90u-2](./90u-2)       | *testnet* | Current | `v3.1.0`     | Current testnet  |
+| [90u-2](./90u-2)       | *testnet* | Upcoming | `v4.0.0`     | Upcoming testnet  |
 
 ## Testnets
 
@@ -21,7 +22,7 @@
 
 | Chain ID         | `90u-2`                                                                   |
 |------------------|---------------------------------------------------------------------------------|
-| Terpd version | `v2.0.0 `                                                                        |
+| Terpd version | `v4.0.0 `                                                                        |
 | Genesis          | [link](https://raw.githubusercontent.com/terpnetwork/test-net/master/90u-2/genesis.json)                                                  |
 | RPC              | [ITRocket](https://terp-testnet-api.itrocket.net)                                                  |
 | gRPC             | TBD                                                  |
@@ -44,6 +45,3 @@ If you encounter any issues while joining the Terp network or have questions abo
 
 ## 🙋‍♀️ FAQ
 
-**1) Will the `athena-4` be deleted?**
-
-Yes, the `athena-4` testnet will be deprecated and eventually deleted in favor of the `90u-2` testnet. 
