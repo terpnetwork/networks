@@ -4,11 +4,11 @@
 |-----------------|--------------------------------------------------------------|
 | Chain-id        | `morocco-1`                                                |
 | Upgrade Version | `v4.0.0`                                        |
-| Upgrade Height  | `3453662`                                                      |
+| Upgrade Height  | `3341663`                                                      |
 
 
 
-The target block for this upgrade is `3453662`, which is expected to arrive at 20:00UTC Saturday, November 11th.. [Go Playground](https://go.dev/play/p/UPscqC6kEd4)
+The target block for this upgrade is `3341663`, which is expected to arrive at 20:00UTC Saturday, November 11th.. [Go Playground](https://ping.pub/terp/block/3341663)
 
 ### Building Manually:
 ```
