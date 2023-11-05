@@ -4,11 +4,11 @@
 |-----------------|--------------------------------------------------------------|
 | Chain-id        | `90u-2`                                                |
 | Upgrade Version | `v4.0.0`                                        |
-| Upgrade Height  | `3268929`                                                      |
+| Upgrade Height  | `1556462`                                                      |
 
 
 
-The target block for this upgrade is `3268929`, which is expected to arrive at 12:00UTC Monday, November 6th.. [Go Playground](https://go.dev/play/p/J_F56gVBWCN)
+The target block for this upgrade is `1556462`, which is expected to arrive at 11:00UTC Friday, November 10th.. [Go Playground](https://go.dev/play/p/J_F56gVBWCN)
 
 ### Building Manually:
 ```
