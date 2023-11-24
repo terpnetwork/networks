@@ -17,7 +17,7 @@ cd terp-core && git pull && git checkout v4.1.testnet
 make build && make install 
 
 terpd version --long | grep "cosmos_sdk_veresion/|commit\|version:"
-# commit: 
+# commit: 4756161c4cb9993a12c33c40121862224a3e1eaa
 # cosmos_sdk_version: v0.47.5
 # version: 4.1.testnet
 
@@ -30,5 +30,5 @@ $DAEMON_HOME/cosmovisor/upgrades/v4_1/bin/terpd version
 rm -rf terpd_linux_amd64.tar.gz # delete if exists
 wget https://github.com/terpnetwork/terp-core/releases/download/v4.1.testnet/terpd-v4.1.testnet-linux-amd64.tar.gz
 sha256sum terpd-v4.0.0-linux-amd64.tar.gz
-# Output 
+# Output 0cf4de9d41d2285b71b396783d5e1f05569a7d20f64b9c133c1c737a64c3992d  terpd-linux-amd64.tar.gz
 ```
