@@ -13,8 +13,9 @@
 | [athena-3](./athena-3) | *testnet* | Ended   | `v0.3.0`     | Past testnet  |
 | [athena-4](./athena-4) | *testnet* | Ended  | `v0.4.0`     | Past testnet  |
 | [90u-1](./90u-1)       | *testnet* | Ended  | `v1.0.1`     | Past testnet  |
-| [90u-2](./90u-2)       | *testnet* | Current | `v3.1.0`     | Current testnet  |
-| [90u-2](./90u-2)       | *testnet* | Upcoming | `v4.0.0`     | Upcoming testnet  |
+| [90u-2](./90u-2)       | *testnet* | Ended | `v3.1.0`     | Past testnet  |
+| [90u-2](./90u-2)       | *testnet* | Ended | `v4.0.0`     | Past testnet  |
+| [90u-2](./90u-2)       | *testnet* | Current | `v4.1.testnet`     | Current testnet  |
 
 ## Testnets
 
@@ -22,7 +23,7 @@
 
 | Chain ID         | `90u-2`                                                                   |
 |------------------|---------------------------------------------------------------------------------|
-| Terpd version | `v4.0.0 `                                                                        |
+| Terpd version | `v4.1.testnet `                                                                        |
 | Genesis          | [link](https://raw.githubusercontent.com/terpnetwork/test-net/master/90u-2/genesis.json)                                                  |
 | RPC              | [ITRocket](https://terp-testnet-api.itrocket.net)                                                  |
 | gRPC             | TBD                                                  |
@@ -39,7 +40,7 @@ Join the testnet following the instructions on the [90u-2 page](./90u-2/README.m
 
 If you encounter any issues while joining the Terp network or have questions about the process, please don't hesitate to reach out for support.
 
-- For general questions and community support, join the [Terp Discord](https://discord.gg/AxAuff4BCt) and ask in the `#testnet-discusion` channel.
+- For general questions and community support, join the [Terp Discord](https://discord.gg/TdJb942Nj5) and ask in the `#testnet-discusion` channel.
 
 - For technical issues or bugs related to the testnet, submit a detailed issue report on this repository with a clear description of the problem and any relevant error messages or logs.
 
