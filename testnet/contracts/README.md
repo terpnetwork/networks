@@ -9,7 +9,7 @@
 - [57 - swaprouter](900A0A4C3E41A7E97B05A6C89E52290B423D27289B1D9D1F8EFE5806F0B4397C)
 
 ## Headstash Contract
-*commit: https://github.com/terpnetwork/badges/commit/b503652f8cf0f8054c13f63b1997737c125c1c11*
+*commit: https://github.com/terpnetwork/headstash-patch/commit/f059f79fa4d2edba21397e350f6e5babb4528ade*
 ```
 5931C8E8DF3C4E2AAEA7B6A8E8608F387639AF3ECCC5AC39B16E32F4832474B0  headstash_patch.wasm
 ```
