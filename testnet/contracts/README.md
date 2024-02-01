@@ -18,21 +18,28 @@
 |    `65`   |  `cw-vesting`                   |  `v2.4.0` |  `3c5f8b385a1653a2c1dc806e4fdddb81c25bc53466f49c1d22f7880d08fd0d93` |   |
 |     `66`  |  `cw-tokenswap`                  |  `v2.4.0` |  `a48407e46cf819d3073a4dff1c013fb008da49da1327ffffbb1d79ca89806520` |   |
 |   `67`    |  `cw-fund-distributor`      | `v2.4.0`  |  `c09df1f82a3972536f68697c86f6c3facc3b810b862fd43f8045379008aba0d8` |   |
-|           |  `cw721-base`                  | `v0.18.0`  |   |   |
-|           |   `cw721-fixed-price`         | `v0.18.0`  |   |   |
-|           |      `cw721-metadata-onchain`   | `v0.18.0`  |   |   |
-|           |      `cw721-updatable`         | `v0.18.0`  |   |   |
-|           |   `cw721-expiration`           |  `v0.18.0` |   |   |
-|           |   `tokenfactory-core`          | `TBD`  |   |   |
-|           |  `terp-splits`    |   |   |   |
-|           |  `base-factory`    |   |   |   |     
-|           |  `base-minter`    |   |   |   |
-|           |   `open-edition-minter`   |   |   |   |
-|           |   `vending-minter`   |   |   |   |
-|           |    `names`  |   |   |   |
-|           |   ``   |   |   |   |
-|           |      |   |   |   |
-|           |      |   |   |   |
+|      `68`*     |  `cw721-base`                  | `v0.18.0`  | `ebaac38567cb8d02c94a62886ae976aeedf3087f568ed18b5c7d588a8f5a6d52`  |   |
+|       `69`*    |   `cw721-fixed-price`         | `v0.18.0`  | `a6e3416299bc89214d8016ee7026a7f2e46d1bcc8512818ed4698f900db6c479`  |   |
+|        `70`*   |      `cw721-metadata-onchain`   | `v0.18.0`  | `c582189243943fc8884d9022dc932b7e6d5bbe9b90fd293977dcc0ffffec0225`  |   |
+|        `71`*   |      `cw2981-royalties`   | `v0.18.0`  | `71f4a24c80347637d50b8a5911f432ee1b20b12e3765dfc2149d12d6b09dd0c2`  |   |
+|       `72`*    |   `cw721-expiration`           |  `v0.18.0` | `f3d2d7da41ae7967ed998cd2016c8f00b73ca15b39024de3a57232aebc9b41ff`  |   |
+|      `73`*     |   `cw721_tester.wasm`   |  `v0.1.7` | `8a878ff01068744605500e29daed2499cd09f774a46e7296f9380f8a052982ec`  |   |
+|        `74`*   |`ics721_base`| `v0.1.7`  |  `f313eec7f87f930e6da7cc85770849d3a67395360ae3493823b889cf0f327558` |   |
+|      `75`*     |   `ics721_base_tester`   |  `v0.1.7` |  `1f0fdfcbf92fde061a1ec1d5930cd4bf6b270b6563eb8c560ec32721a378ca7a` |   |
+|   ``    |   `dao-dao-core`                  |   |   |    |
+|   ``    |   `dao-pre-propose-approval-single`        |   |   |    |
+|   ``    |   `dao-pre-propose-approver`                  |   |   |    |
+|   ``    |   `dao-pre-propose-multiple`        |   |   |    |
+|   ``    |   `dao-pre-propose-single`                  |   |   |    |
+|   ``    |   `dao-proposal-condorcet`        |   |   |    |
+|   ``    |   `dao-proposal-hook-counter`                  |   |   |    |
+|   ``    |   `dao-proposal-multiple`        |   |   |    |
+|   ``    |   `dao-proposal-single`        |   |   |    |
+|   ``    |   `dao-proposal-sudo`                  |   |   |    |
+|   ``    |   `dao-voting-cw4`        |   |   |    |
+|   ``    |   `dao-voting-cw721-roles`        |   |   |    |
+|   ``    |   `dao-voting-cw721-staked`                  |   |   |    |
+|   ``    |   `dao-voting-token-staked`        |   |   |    |
 |           |      |   |   |   |
 
 

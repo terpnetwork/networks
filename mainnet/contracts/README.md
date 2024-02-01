@@ -1,6 +1,6 @@
 # Mainnet Contracts
 
-| `id` |  `contract-name`     | `version`  |  `hash`  | `description`  |
+| `id` |  `contract-name`     | `version`  |  `hash`  | `git commit`  |
 |--------|------|---|---|---|
 |    `1-3`    |  *old polytone versions*    | -  |  - | -  |
 |    `4`    |   `polytone_note`          | `v1.0.0`   | `6284cfad75227c84ae407a57072bd7c3a599b31dd6c67d0a5e0a72fa9447a33f`  |   |
@@ -17,21 +17,27 @@
 |   `15`    |   `cw-vesting`             |  `v2.4.0`  |  `3c5f8b385a1653a2c1dc806e4fdddb81c25bc53466f49c1d22f7880d08fd0d93` |   |
 |   `16`    |   `cw-tokenswap`           |  `v2.4.0`  |  `a48407e46cf819d3073a4dff1c013fb008da49da1327ffffbb1d79ca89806520` |   |
 |   `17`    |   `cw-fund-distributor`    | `v2.4.0`   |  `c09df1f82a3972536f68697c86f6c3facc3b810b862fd43f8045379008aba0d8` |   |
-|   `18`    |   `cw721-base`             | `v0.18.0`  |  `` |   |
-|   `19`    |   `cw721-fixed-price`      | `v0.18.0`  |   |   |
-|   `20`    |   `cw721-metadata-onchain` | `v0.18.0`  |   |   |
-|   `21`    |   `cw721-updatable`        | `v0.18.0`  |   |   |
-|   `22`    |   `cw721-expiration`       |  `v0.18.0` |   |   |
-|   `23`    |   `tokenfactory-core`      | `TBD`  |   |   |
-|   `24`    |   `terp-splits`            |   |   |   |
-|   `25`    |   `base-factory`           |   |   |   |
-|   `26`    |   `base-minter`            |   |   |   |
-|   `27`    |   `open-edition-minter`    |   |   |   |
-|   `28`    |   `vending-minter`         |   |   |   |
-|   `29`    |   `names`                  |   |   |   |
-|       |   ``   |   |   |   |
-|       |      |   |   |   |
-|       |      |   |   |   |
+|   `18`*   |   `cw721-base`             | `v0.18.0`  |  `ebaac38567cb8d02c94a62886ae976aeedf3087f568ed18b5c7d588a8f5a6d52` |  `378ae39db7bfcdb09660955ef1334a5304c3d633` |
+|   `19`*    |   `cw721-expiration`       |  `v0.18.0` |  `f3d2d7da41ae7967ed998cd2016c8f00b73ca15b39024de3a57232aebc9b41ff` |  `378ae39db7bfcdb09660955ef1334a5304c3d633` |
+|   `20`*   |   `cw721-metadata-onchain` | `v0.18.0`  |  `c582189243943fc8884d9022dc932b7e6d5bbe9b90fd293977dcc0ffffec0225` | `378ae39db7bfcdb09660955ef1334a5304c3d633`  |
+|   `21`*   |   `cw2981_royalties`       | `v0.18.0`  |  `71f4a24c80347637d50b8a5911f432ee1b20b12e3765dfc2149d12d6b09dd0c2` | `378ae39db7bfcdb09660955ef1334a5304c3d633` |
+|   `22`*   |   `cw721-fixed-price`      | `v0.18.0`  |  `a6e3416299bc89214d8016ee7026a7f2e46d1bcc8512818ed4698f900db6c479` | `378ae39db7bfcdb09660955ef1334a5304c3d633`  |
+|   ``    |   `dao-dao-core`                  |   |   |    |
+|   ``    |   `dao-pre-propose-approval-single`        |   |   |    |
+|   ``    |   `dao-pre-propose-approver`                  |   |   |    |
+|   ``    |   `dao-pre-propose-multiple`        |   |   |    |
+|   ``    |   `dao-pre-propose-single`                  |   |   |    |
+|   ``    |   `dao-proposal-condorcet`        |   |   |    |
+|   ``    |   `dao-proposal-hook-counter`                  |   |   |    |
+|   ``    |   `dao-proposal-multiple`        |   |   |    |
+|   ``    |   `dao-proposal-single`        |   |   |    |
+|   ``    |   `dao-proposal-sudo`                  |   |   |    |
+|   ``    |   `dao-voting-cw4`        |   |   |    |
+|   ``    |   `dao-voting-cw721-roles`        |   |   |    |
+|   ``    |   `dao-voting-cw721-staked`                  |   |   |    |
+|   ``    |   `dao-voting-token-staked`        |   |   |    |
+|   ``    |   ``        |   |   |    |
+|   ``    |   ``        |   |   |    |
 
 ## Polytone Contracts
 
