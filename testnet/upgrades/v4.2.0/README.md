@@ -2,8 +2,6 @@
 
 This upgrade follows the state export the network, so that we are using the same terpd version on the testnet as the mainnet.
 
-## This is a security upgrade. IT IS CONSENSUS BREAKING, so please apply the fix only on height TBD.
-
 ### Release Details
 * Go version has been frozen at `1.21`. If you are going to build `terpd` binary from source, make sure you are using the right GO version!
 
@@ -18,8 +16,6 @@ The exact sequence of steps depends on your configuration. Please take care to m
 ## Step 1: Configure `halt-height` and restart the node.
 
 This upgrade requires `terpd` halting execution at a pre-selected `halt-height`. Failing to stop at `halt-height` may cause a consensus failure during chain execution at a later time.
-
-There are two mutually exclusive options for this stage:
 
 ### Option 1: Set the halt height by modifying `app.toml`
 
@@ -38,23 +34,6 @@ halt-height = TBD
 * Remove existing data
 
 * Download the new genesis file [here](https://raw.githubusercontent.com/terpnetwork/networks/main/testnet/90u-3/genesis.json)
-
-### Option 2: Restart the `terpd` binary with command line flags
-
-* Stop the terpd process.
-
-* Do not modify `app.toml`. Restart the `terpd` process with the flag `--halt-height`:
-```shell
-terpd start --halt-height TBD
-```
-
-* Wait for the upgrade height and confirm that the node has halted
-
-Upon reaching the `halt-height` you need to replace the `v4.1.1` terpd binary with the new `terpd v4.2.0` binary and remove the `halt-height` constraint.
-Depending on your setup, you may need to set `halt-height = 0` in your `app.toml` before resuming operations.
-```shell
-   git clone https://github.com/terpnetwork/terp-core.git
-```
 
 ### Build and start the binary
 
@@ -98,16 +77,6 @@ There is no need to restart the node yet; these changes will get applied during 
 
 ```shell
    git clone https://github.com/terpnetwork/terp-core.git
-```
-
-### Follow these steps if terpd repo already present
-
-```shell
-   cd $HOME/.terp
-   git pull
-   git fetch --tags
-   git checkout v4.2.0
-   make install
 ```
 
 ### Check the new terpd version, verify the latest commit hash
