@@ -8,19 +8,19 @@ This upgrade follows the state export the network, so that we are using the same
 ### Exported state 
 
 The snapshot of the state was taken at block height [], by the following command:
-```
-terpd export --height --for-zero-height >> 90u-3-export.json
+```sh
+terpd export --height 3578710 --for-zero-height >> 90u-3-export.json
 ```
 
 removing the logs from the result file, the snapshot's resulting checksum then becomes:
 ```sh
 sha256sum 90u-3-export.json
-# 
+#  8ef745fcbccbe4fe393a913fa71179e561cab82d45133003d0b454ce33f8d4c3  90u-3-export.json
 ```
 
 # Performing the co-ordinated upgrade
 
-This co-ordinated upgrades requires validators to stop their validators at `halt-height`, remove all data from the node, download the new genesis file, and restart the node service.
+This co-ordinated upgrades requires validators to stop their validators, remove all data from the node, download the new genesis file, and restart the node service.
 The exact sequence of steps depends on your configuration. Please take care to modify your configuration appropriately if your setup is not included in the instructions.
 
 # Manual steps
@@ -57,8 +57,12 @@ terpd version
 # v4.2.0
 ```
 
+start the new network node
 ```shell
 terpd start # starts the v4.2.0 node
 ```
 
-if all is well,
+if all is well, remove the backup state 
+```
+rm -rf $HOME/.terp.backup
+```
