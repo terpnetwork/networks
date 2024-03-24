@@ -70,6 +70,8 @@ sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persisten
 
 ```shell
 cd $HOME/terp-core
+git fetch --all 
+git checkout main 
 make install
 
 # verify install
