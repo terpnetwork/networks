@@ -4,12 +4,12 @@
 
 ### Release Details
 * https://github.com/terpnetwork/terp-core/releases/tag/v4.2.0 
-* Chain upgrade height : `TBD`. Exact upgrade time can be checked [here](https://ping.pub/terp/block/TBD).
+* Chain upgrade height : `5486131`. Exact upgrade time can be checked [here](https://ping.pub/terp/block/5486131).
 * Go version has been frozen at `1.21`. If you are going to build `terpd` binary from source, make sure you are using the right GO version!
 
 # Performing the co-ordinated upgrade
 
-This co-ordinated upgrades requires validators to stop their validators at `halt-height`, switch their binary to `v4.2.0` and restart their nodes with the new version.
+This co-ordinated upgrades requires validators to stop their validators at `5486131`, switch their binary to `v4.2.0` and restart their nodes with the new version.
 
 The exact sequence of steps depends on your configuration. Please take care to modify your configuration appropriately if your setup is not included in the instructions.
 
@@ -29,7 +29,7 @@ There are two mutually exclusive options for this stage:
 
 ```toml
 # Note: Commitment of state will be attempted on the corresponding block.
-halt-height = TBD
+halt-height = 5486131
 ```
 * restart terpd process
 
@@ -41,7 +41,7 @@ halt-height = TBD
 
 * Do not modify `app.toml`. Restart the `terpd` process with the flag `--halt-height`:
 ```shell
-terpd start --halt-height TBD
+terpd start --halt-height 5486131
 ```
 
 * Wait for the upgrade height and confirm that the node has halted
@@ -58,7 +58,7 @@ Depending on your setup, you may need to set `halt-height = 0` in your `app.toml
 cd $HOME/terp-core
 git pull
 git fetch --tags
-git checkout v4.2.0
+git checkout main
 make install
 
 # verify install
