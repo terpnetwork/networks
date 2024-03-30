@@ -1,15 +1,9 @@
-# 90u-2
+# 90u-4
 
 ## Genesis File
-A genesis file generated from the exported state of legacy testnet `90u-2`.
+A genesis file generated from the exported state of legacy testnet `90u-4`.
 
 ### Sha256sum 
 ```sh
-a55542d1da23af44007d26e213a003686505fe328bc8226643d862ab656e48ce  $HOME/.terp/config/genesis.json
+b412301391994868e6d93b9307a4eb271fd4d5aeab991487f231894ad5a5cf42  $HOME/.terp/config/genesis.json
 ```
-
-## Config
-contains various configuration templates for network nodes & relayers
-
-
-``
