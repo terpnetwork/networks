@@ -34,7 +34,7 @@ Upon reaching the halt-height you need to replace the `v4.2.0`terpd binary with 
 
 The snapshot of the state will be taken at block height [3686837](https://testnet.itrocket.net/terp/block/3686837), one block before the halt height, by the following command:
 ```sh
-terpd export --height 3686837 --for-zero-height >> 90u-3-export.json
+terpd export --height 3686837 --for-zero-height --output-document 90u-3.json
 ```
 
 # Performing the co-ordinated upgrade

@@ -16,24 +16,25 @@
 | [90u-2](./90u-2)       | *testnet* | Ended | `v3.1.0`     | Past testnet  |
 | [90u-2](./90u-2)       | *testnet* | Ended | `v4.0.0`     | Past testnet  |
 | [90u-2](./90u-2)       | *testnet* | Current | `v4.1.testnet`     | Current testnet  |
+| [90u-3](./90u-3)       | *testnet* | Upcoming | `v4.2.0`     | Upcoming testnet  |
 
 ## Testnets
 
 ### 🟪 90u-2
 
-| Chain ID         | `90u-2`                                                                   |
-|------------------|---------------------------------------------------------------------------------|
-| Terpd version | `v4.1.testnet `                                                                        |
-| Genesis          | [link](https://raw.githubusercontent.com/terpnetwork/test-net/master/90u-2/genesis.json)                                                  |
-| RPC              | [ITRocket](https://terp-testnet-api.itrocket.net)                                                  |
-| gRPC             | TBD                                                  |
-| REST             | [ITRocket](https://terp-testnet-api.itrocket.net)                                                  |
-| Faucet           | TBD                                                  |
-| Frontend         | TBD                                                  |
+| Chain ID         | `90u-3`                                                                   |
+|------------------|------------------------------------------------------------------------------------------|
+| Terpd version    | `v4.2.0`                                                                                 |
+| Genesis          | [link](https://raw.githubusercontent.com/terpnetwork/test-net/master/90u-3/genesis.json) |
+| RPC              | `https://testnet-rpc.terp.network:443`               |                                   |
+| gRPC             | TBD                                                  |                                   |
+| REST             | `https://testnet-api.terp.network`                   |                                   |
+| Faucet           | TBD                                                  |                                   |
+| Frontend         | TBD                                                  |                                   |
 
 #### Join the testnet 
 
-Join the testnet following the instructions on the [90u-2 page](./90u-2/README.md).
+Join the testnet following the instructions on the [90u-3 page](./90u-3/README.md).
 
 
 ## 🆘 Issues and support
