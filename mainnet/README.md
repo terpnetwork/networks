@@ -8,8 +8,7 @@
 
 | Chain ID                              | Type      | Status | Version       | Notes           |
 |---------------------------------------|-----------|--------|---------------|-----------------|
-| [morocco-1](./morocco-1) | *mainnet* | Ended    | `v3.1.0`     | Ended mainnet |
-| [morocco-1](./morocco-1) | *mainnet* | Current   | `v4.1.0`     | Current mainnet |
+| [morocco-1](./morocco-1) | *mainnet* | Current   | `v4.2.0`     | Current mainnet |
 
 ## Testnets
 
@@ -17,7 +16,7 @@
 
 | Chain ID         | `morocco-1`                                                                   |
 |------------------|---------------------------------------------------------------------------------|
-| Terpd version | `v4.1.0 `                                                                        |
+| Terpd version | `v4.1.1`                                                                        |
 | Genesis          | [link](https://raw.githubusercontent.com/terpnetwork/networks/main/mainnet/morocco-1/genesis.json)                                                  |
 | RPC              | TBD                                                  |
 | gRPC             | TBD                                                  |
