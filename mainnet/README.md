@@ -8,7 +8,7 @@
 
 | Chain ID                              | Type      | Status | Version       | Notes           |
 |---------------------------------------|-----------|--------|---------------|-----------------|
-| [morocco-1](./morocco-1) | *mainnet* | Current   | `v4.2.0`     | Current mainnet |
+| [morocco-1](./morocco-1) | *mainnet* | Current   | `v5.0.0`     | Current mainnet |
 
 ## Testnets
 
