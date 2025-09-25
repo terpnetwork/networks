@@ -51,7 +51,7 @@ sha256sum preUpgradeScript.sh $DAEMON_HOME/cosmovisor/preUpgradeScript.sh
 # output should be: 
 # b0e25f094b20d62925d5bcb1f8850d06ccfb5874f70db8855723ea02bf96e4fc  preUpgradeScript.sh
 # set the environment variable for cosmovisor (preferably in systemd file)
-sudo sed -i '' 's/Environment="DAEMON_RESTART_AFTER_UPGRADE=true"/&\'$'\n''Environment="COSMOVISOR_CUSTOM_PREUPGRADE=preUpgradeScript.sh"/' test.service
+sudo sed -i '' 's/Environment="DAEMON_RESTART_AFTER_UPGRADE=true"/&\'$'\n''Environment="COSMOVISOR_CUSTOM_PREUPGRADE=preUpgradeScript.sh"/' /etc/systemd/system/terpd.service
 # reload the daemon-process
 sudo -S systemctl daemon-reload
 sudo systemctl start terpd
