@@ -14,10 +14,9 @@ The target block for this upgrade is `14170662`, which is expected to arrive at 
 
 This can be done 1 of 3 ways:
 
-1. **Manually**: Nodes not using cosmovisor will apply changes to config file manually, before installing and resuming the daemon process.
-2. **With Default Cosmovisor**: Cosmovisor supports applying custom pre-upgrade scripts. Node operators must download the pre-upgrade script, and set dedicated environment variable for Cosmovisor to execute the scrip prior to reaching the coordinated halt height.
-3. **With Custom Cosmovisor**: A fork of cosmovisor that will download and execute any preupgrade script defined in our on-chain upgradeInfo
-<!-- This upgrade reduces our blocktimes. To do so, validators MUST modify their consensus params, BEFORE installing and applying the latest version of terp-core. These parameters are  located in each nodes `config.toml`, and to do so, we have provided 3 options: -->
+1. **Manually**: Nodes not using cosmovisor will **wait until the network halts**, then **manually apply `config.toml` changes** before installing the v5.0.0 binary and restarting.
+2. **With Default Cosmovisor**: Node operators must download the pre-upgrade script and set environment variables BEFORE reaching our coordinated halt height. Cosmovisor will automatically execute the script and upgrade when the halt height is reached.
+3. **With Custom Cosmovisor**: A modified cosmovisor that automatically downloads and executes pre-upgrade scripts. Operators must install the custom cosmovisor binary BEFORE reaching the coordinated halt height - no manual script download required.
 
 ### A. WITHOUT COSMOVISOR: Manual Update to `config.toml`  
 
